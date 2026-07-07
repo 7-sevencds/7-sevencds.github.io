@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 .contenedor{
   padding: 0px 100px;
 }

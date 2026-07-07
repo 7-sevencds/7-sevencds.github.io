@@ -8,7 +8,10 @@ body {
   margin: 0;
 }
 
+.contenedor{
+  padding: 0px 100px;
+}
+
 .descripcion{
   background-color: coral;
-  padding: 0px 50px;
 }

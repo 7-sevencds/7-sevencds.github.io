@@ -26,7 +26,7 @@ ul{
 }
 
 .descripcion{
-  background: url('/img/oficina.png') no-repeat right center, radial-gradient(circle, #58585c ,#869EA6);
+  background: url('/img/oficina.png') no-repeat right center, radial-gradient(circle, #58585c ,#f39d08);
   /* background-color: #869EA6; */
   background-size: contain; /* Ajusta la imagen sin deformarla */
   color: azure;

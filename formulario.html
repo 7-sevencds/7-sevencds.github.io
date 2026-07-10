@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="css/formstyles.css">
+</head>
+<body>
+    
+
+    <div class="contenedor">
+
+        <h2 style="color: #333;">👨‍💼 Registro de la persona Usuaria</h2>
+        <hr>
+
+        <h3 style="text-align: right;">Ingrese los datos</h3>
+        
+        <form action="/registrar" method="POST">
+
+            <div class="campo-grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="campo-grupo">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+            </div>
+            <div class="campo-grupo">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+            <div class="campo-grupo">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Min. 8 caracteres" required>
+            </div>
+            <div class="campo-grupo">
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" name="descripcion" rows="5" cols="40" placeholder="Breve descripción sobre ti..." required></textarea>
+            </div>
+
+            <fieldset>
+                <legend>Indica tus intereses</legend>
+
+                    <label>
+                    💻 <input type="checkbox" name="pasatiempos" value="Tecnología">
+                    Tecnología
+                    </label>
+                    <br>
+                    <label>
+                    🎨 <input type="checkbox" name="pasatiempos" value="Arte">
+                    Arte
+                    </label>
+                    <br>
+                    <label>
+                    ⚽ <input type="checkbox" name="pasatiempos" value="Deporte">
+                    Deporte
+                    </label>
+                    <br>
+                    <label>
+                    🎵 <input type="checkbox" name="pasatiempos" value="Música">
+                    Música
+                    </label>
+    
+            </fieldset>
+
+            <br>
+
+            <button type="submit">💾 Registrarse</button>
+
+        </form> 
+               
+        <br>
+        <footer class="footer">
+            © 2026 | <a href="https://7-sevencds.github.io/formulario.html">Mi formulario</a> | UVEG Reto 3 | Matrícula: 24016190 <br>
+            Cristian Domínguez Santana 
+        </footer>
+    </div><!--fin del contenedor-->
+    
+</body>
+</html>

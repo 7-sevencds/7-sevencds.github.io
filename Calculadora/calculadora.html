@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2 style="color: #333;">📱 Calculadora básica</h2>
+        <hr>
+
+        <input type="text" id="pantalla" value="0" readonly>
+
+        <div class="botones">
+
+            <button class="clear" onclick="limpiar()">C</button>
+            <button class="operaciones" onclick="operacion('/')">÷</button>
+            <button class="operaciones" onclick="operacion('*')">×</button>
+            <button class="clear" onclick="borrar()">⌫</button>
+
+            <button onclick="numero('7')">7</button>
+            <button onclick="numero('8')">8</button>
+            <button onclick="numero('9')">9</button>
+            <button class="operaciones" onclick="operacion('-')">-</button>
+
+            <button onclick="numero('4')">4</button>
+            <button onclick="numero('5')">5</button>
+            <button onclick="numero('6')">6</button>
+            <button class="operaciones" onclick="operacion('+')">+</button>
+
+            <button onclick="numero('1')">1</button>
+            <button onclick="numero('2')">2</button>
+            <button onclick="numero('3')">3</button>
+            <button class="operaciones" onclick="resultado()">=</button>
+
+            <button class="operaciones" onclick="decimal()">.</button>
+            <button onclick="numero('0')">0</button>
+
+        </div>
+
+        <br>
+        <footer class="footer">
+            © 2026 | UVEG Reto 4 | Matrícula: 24016190 <br>
+            Cristian Domínguez Santana 
+        </footer>
+
+    </div> <!--fin del contenedor-->
+    
+    <script src="/js/app.js"></script>
+</body>
+</html>

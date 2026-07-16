@@ -6,7 +6,7 @@ async function cargarNoticias() {
 
     try {
         // Petición HTTP
-        const respuesta = await fetch("https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=cf3a001f7a43406f98fc7a4b8de7d392");
+        const respuesta = await fetch("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=cf3a001f7a43406f98fc7a4b8de7d392");
         
         // Validamos si algun error
         if (!respuesta.ok) {

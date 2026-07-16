@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: url('/img/back.jpg') center / cover no-repeat fixed, #F4F4F4;
+  background: url('/lectornoticias/img/back.jpg') center / cover no-repeat fixed, #F4F4F4;
   background-color: #F4F4F4;
   padding: 0px 400px;
 }
